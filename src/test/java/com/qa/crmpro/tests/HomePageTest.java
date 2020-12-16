@@ -48,6 +48,13 @@ public class HomePageTest {
 			System.out.println("Logged in User is :" + LoggedInUser );
 			Assert.assertEquals(LoggedInUser, Constants.HOME_PAGE_LOGGEDINUSER, "Logged in User not matching");			
 		}
+		
+		@Test(priority = 4)
+		public void verifySignUpLinkTest(){
+			loginPage.verifySignUpLink();	
+			Assert.assertTrue(loginPage.verifySignUpLink(), "sign up link is not displayed");
+			
+		}
 					
 		@AfterTest	
 		public void tearDown(){

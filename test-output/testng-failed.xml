@@ -9,6 +9,7 @@
           <include name="tearDown"/>
           <include name="verifyLoggedInUserTest"/>
           <include name="setUp"/>
+          <include name="verifySignUpLinkTest"/>
         </methods>
       </class> <!-- com.qa.crmpro.tests.HomePageTest -->
     </classes>

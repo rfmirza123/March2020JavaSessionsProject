@@ -14,7 +14,8 @@ public class HomePage extends BasePage {
 	//By header = By.xpath("//td[@class='logo_text']");	
 	//By header = By.xpath("//h1[@id='pm_modal_title']");			
 		By header = By.cssSelector("td.logo_text");		
-		By accountName = By.xpath("//td[@class='headertext'][1]");			
+		By accountName = By.xpath("//td[@class='headertext'][1]");	
+		By signUpLink = By.linkText("Upgrade your account");
 	//By accountName = By.cssSelector(.headertext);
 			
 	public HomePage (WebDriver driver){
